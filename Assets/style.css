@@ -1,6 +1,14 @@
+:root {
+    --font-color:aliceblue;
+    --dark: rgb(32, 30, 30);
+    --nav: rgba(32, 30, 30, 0.915);
+    --font-fam: Arial, Helvetica, sans-serif;
+    --impact: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 body {
-    background-color: rgb(32, 30, 30);
-    color: aliceblue;
+    background-color: var(--dark);
+    color: var(--font-color);
     font-weight: bold;
     font-size: 20px;
     display: relative;
@@ -14,11 +22,34 @@ header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 45%;
+    width: 50%;
 }
 
 nav {
-    align-content: end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: var(--dark);
+    text-align: end;
+}
+
+nav ul {
+    position:relative;
+    right: 50px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: var(--font-color);
+    font-size: 20px;
+    padding: 7px;
+    font-family: var(--font-fam);
+    text-decoration: none;
 }
 
 figure {
@@ -46,7 +77,7 @@ figure img {
 
 figure h2 {
     font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: var(--impact);
     text-align: left;
     margin-top: 5%;
     display: block;
@@ -65,5 +96,11 @@ figure p {
 
 h3 {
     font-size: 28px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: var(--impact);
+}
+
+footer h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: var(--font-fam);
 }
