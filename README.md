@@ -19,8 +19,8 @@ I was tasked with creating a developer portfolio webpage to showcase my work. Th
 
 ## Links
 
-- Github Repository:
-- Deployed Webpage:
+- Github Repository: https://github.com/rambriz91/devfolio-deux
+- Deployed Webpage: https://rambriz91.github.io/devfolio-deux/
 
 ## Credits
 
