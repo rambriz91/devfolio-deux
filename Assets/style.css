@@ -159,3 +159,20 @@ footer h3 {
     text-decoration: none;
     color: var(--font-color);
 }
+
+.first {
+    height: 500px;
+    width: 500px;
+}
+
+@media screen and (max-width: 1475px) {
+    .first {
+        height: 400px;
+        width: 400px;
+    }
+
+    figure img {
+        height: 350px;
+        width: 350px;
+    }
+}
